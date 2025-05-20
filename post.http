@@ -1,0 +1,25 @@
+POST http://localhost:5000/api/formulario
+Content-Type: application/json
+
+{
+  "nombre": "Formulario de Encuesta de Satisfacción",
+  "descripcion": "Formulario para recoger opiniones sobre la satisfacción con el servicio",
+  "campos": [
+    {
+      "nombre": "¿Cómo calificarías la calidad del servicio?",
+      "tipo": "radio",
+      "opciones": ["Excelente", "Bueno", "Regular", "Malo"]
+    },
+    {
+      "nombre": "¿Cómo calificarías la calidad del servicio?",
+      "tipo": "radio",
+      "opciones": ["Excelente", "Bueno", "Regular", "Malo"]
+    },
+        {
+      "nombre": "¿Cómo calificarías la calidad del servicio?",
+      "tipo": "radio",
+      "opciones": ["Excelente", "Bueno", "Regular", "Malo"]
+    }
+
+  ]
+}
